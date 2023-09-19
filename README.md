@@ -9,6 +9,7 @@ This is an expense tracker that consists of 3 tables that dynamically update cer
 # design/implementation tradeoffs:
 
 react hook form vs formic
+
 When researching between the two, I chose react hook form because it has fewer dependencies, smaller bundle size, fewer re-renders, and quicker mounting time. 
 
 In the user data structure, I store the first and last name seperately. When I need to access the full name, I create it and store it in a variable rather than storing a full name field in the user data structure.  
