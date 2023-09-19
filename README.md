@@ -6,6 +6,8 @@ npm start
 
 This is an expense tracker that consists of 3 tables that dynamically update certain fields based on user actions. The user table displays a list of all the users as well as their running total expense. The expense table displays the user, category, description, and cost of the expense. The summary table displays the category as well as the running total expense. Users may create/edit/delete entries in the user and expense table to interact with the tables. 
 
+Note: Currently the input fields do not reset after submit and the the edit fields do not autopopulate corretly. Also, sometimes submit needs to be clicked twice. 
+
 # design/implementation tradeoffs:
 
 react hook form vs formic
